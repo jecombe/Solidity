@@ -118,7 +118,7 @@ B(res)
 function B(r)
 {
   var b = 0;
-    while (b != r - 1)
+    while (b != r)
       {
         //methods get solidity
         contract.methods.get(b).call().then( result => {

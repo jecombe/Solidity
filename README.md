@@ -30,7 +30,7 @@ Pour obtenir le résultat, faire la commande suivante:
 ```
 node get.js
 ```
-![Alt text](struct_user.jpg?raw=true "Title")
+![Alt text](struct_user.png?raw=true "Title")
 
 ## Auteur
 

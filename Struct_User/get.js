@@ -109,7 +109,7 @@ const contract = new web3.eth.Contract(contractABI, contractAddress)
 
 //fonction pour savoir le nombre de structure grace a la varaible public de solidity
 contract.methods.nb().call(function(err, res){
-  var print = res - 1;
+  var print = res;
  console.log('Structure total: ' + print);
 B(res)
 });
